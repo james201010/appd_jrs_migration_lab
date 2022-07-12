@@ -156,7 +156,7 @@ sudo chown -R ec2-user:ec2-user /opt/appdynamics
 
 cd /opt/appdynamics
 
-git clone https://github.com/james201010/appd_jrs_observability_lab.git appd_lab_repo
+git clone https://github.com/james201010/appd_jrs_migration_lab.git appd_lab_repo
 
 
 ##### Prep Lab User Assets 
@@ -246,7 +246,7 @@ chmod 777 /opt/appdynamics/workshopuser/workshopPrereqs.sh
 
 #set -x  # temporarily turn command display OFF.
 
-curl --silent -L https://raw.githubusercontent.com/james201010/appd_jrs_observability_lab/main/teardownWorkshop.sh -o /home/ec2-user/environment/teardownWorkshop.sh
+curl --silent -L https://raw.githubusercontent.com/james201010/appd_jrs_migration_lab/main/teardownWorkshop.sh -o /home/ec2-user/environment/teardownWorkshop.sh
 
 chmod 777 /home/ec2-user/environment/teardownWorkshop.sh
 
